@@ -1,0 +1,302 @@
+/*default colors*/
+:root {
+    --accent-color: #0000ff;
+    --font-color: Black;
+    --bg-color: rgb(252, 252, 252);
+}
+
+
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*standard styling for the webpage*/
+body {
+    background-color: var(--bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--font-color);
+    margin: 20px 50px 50px 50px;
+    border-radius: 25px;
+    border: 3px solid var(--accent-color);
+}
+
+
+/*styling for the header*/
+header {
+    
+    color: var(--accent-color);
+    border-bottom: 3px solid var(--accent-color);
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
+    
+	padding: 1em 0;
+	background-image: -moz-linear-gradient(
+	    30deg, var(--accent-color) 0%, #fffded 30%, white 50%, #fffded 80%, var(--accent-color) 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, var(--accent-color) 0%, #fffded 30%, white 50%, #fffded 80%, var(--accent-color) 100%);
+	background-image: -o-linear-gradient(
+	    30deg, var(--accent-color) 0%, #fffded 30%, white 50%, #fffded 80%, var(--accent-color) 100%);
+	background-image: linear-gradient(
+	    30deg, var(--accent-color) 0%, #fffded 30%, white 50%, #fffded 80%, var(--accent-color) 100%);
+}
+
+/*formatting logo next to the title*/
+header img {
+    float: left;
+	padding: 0 30px;
+}
+
+
+/*styling the links and navigation buttons*/
+
+a:link {
+color: var(--font-color); 
+}   
+
+a:visited {
+    color: var(--font-color);  
+}   
+
+.nav-header-1 ul li a:active, #employees ul li a:active  {
+    color: white;
+    background-color: red;  
+ }   
+
+a:hover {
+    color: var(--accent-color); 
+} 
+
+nav li a:hover {
+    color: white;
+    background-color: var(--accent-color);    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+ div.title {
+    text-align: center;
+}
+
+
+/*Styling for the Google maps on the Contact Page*/
+iframe {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+/*Styling for the Services Page*/
+.services-container {
+display: flex;
+flex-wrap: wrap;
+column-gap: 100px;
+justify-content: center;
+margin: auto;
+}
+
+/*Styling for the Contact Page*/
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*Styling for the Employees portraits on the About Page*/
+.portrait {
+    height: 500px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
+
+
+/*Styling for the Footer Design*/
+footer {
+    border-top: 3px solid var(--accent-color);
+	padding: 3em 0;
+	clear: both;
+    color: var(--font-color);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+	padding: 1em 0;
+	background-image: -moz-linear-gradient(
+	    30deg, var(--accent-color) 0%, #fffded 30%, white 50%, #fffded 80%, var(--accent-color) 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, var(--accent-color) 0%, #fffded 30%, white 50%, #fffded 80%, var(--accent-color) 100%);
+	background-image: -o-linear-gradient(
+	    30deg, var(--accent-color) 0%, #fffded 30%, white 50%, #fffded 80%, var(--accent-color) 100%);
+	background-image: linear-gradient(
+	    30deg, var(--accent-color) 0%, #fffded 30%, white 50%, #fffded 80%, var(--accent-color) 100%);
+}
+
+/*Styling for the Footer text*/
+footer div{
+    text-align: center;
+}
+
+/*Styling for the images on the Service Page*/
+.roadside img, .maintenance img {
+    height: 300px;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+/*Styling for the header on top of all the pages*/
+header h1 {
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+
+/*Styling for the forms and textbox on the Contact Page*/
+input {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 300px;
+    height: 150px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+  /*Adding formatting details to the Service page*/
+  .service-list{
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+
+  /*Adding background color to within the margins of the body only*/
+  body main, div.title {
+    background-color: var(--bg-color);
+  }
+
+  /*Styling for the slideshow on the Home Page*/
+  .slideshow2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px; 
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+    /*styling for the images in the slideshow*/
+  .slideshow2 img { opacity: 0; filter:alpha(opacity=0); width: 500px;}
+
+
+
+  /*Formatting table styling on Contact Page*/
+  th{
+    text-align: left; 
+    padding-right: 50px;
+  }
+
+  tr{
+    text-align: right;
+  }
+
+  table {
+    padding-bottom: 5px;
+  }
+
+  /*Styling labels on Contact Page*/
+  form > label {
+    font-weight: bold;
+  }
+
+  /*Adding some spacing beneath the <p> on the Contact page*/
+  .contact-container div p{
+    padding-bottom: 10px;
+  }
+ 
+/*Styling for the hoverpulse plugin*/
+#thumbs {
+    position: relative; 
+    width: 198px; 
+    height: 198px; 
+}
+div.thumb { 
+    float: 
+    left; 
+    padding: 1px; 
+    width: 64px; 
+    height: 64px; 
+}
+div.thumb img { 
+    cursor: pointer 
+}
+
+/*Styling for the employees on the about page*/
+.employee-container {
+    display: flex;
+    flex:wrap;
+    column-gap: 100px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.employee-container h3 {
+    font-size: 95%;
+}
+
+.employee-container p {
+    max-width: 300px;
+    width: auto;
+    padding-top: 3px;
+    text-align: justify;
+}
+
+.portrait {
+    height: 380px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+/*Styling for the navigation bar on the about page*/
+#employees{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#employees li a {
+    color: var(--bg-color);
+    background-color: var(--accent-color);
+    border-radius: 5px;
+} 
+
+#employees li a:hover {
+    color: var(--bg-color);
+    background-color: grey;    
+}
+
+.description-container {
+    margin-top: 50px;
+}
+
+/*Styling for the main navigation links when active*/
+
+.active-link {
+    text-decoration: underline;
+}
+

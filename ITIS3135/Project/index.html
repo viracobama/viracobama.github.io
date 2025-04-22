@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- include jQuery library-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <!-- include malsup's cycle2 plugin -->
+        <script src="https://malsup.github.io/jquery.cycle2.js"></script>
+        <script src="cycle2.js"></script>
+        <!-- include malsup's cycle2's center plugin -->
+        <script src="https://malsup.github.io/jquery.cycle2.center.js"></script>
+        <!-- include tooltips widget and css styling -->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script src="tooltip.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="images/ctsi-logo.png" alt="CTSI Logo" height="80">
+            <h1>Charlotte Towing Services Inc.</h1>
+            <nav class="nav-header-1">
+                <ul>
+                    <li><a href="index.html" title="Click to return the home page" class="active-link">Home</a></li>
+                    <li><a href="services.html" title="Click to look at our services">Services</a></li>
+                    <li><a href="about.html" title="Click to find out who we are">About</a></li>
+                    <li><a href="contactUs.html" title="Click to find out where to find us">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="title">
+                <h1>CTSI Home Page</h1>
+                <h2>Welcome to CTSI where we can provide <br> 
+                    all your towing needs and more.</h2>
+            </div>
+            <div class="slideshow2" 
+                data-cycle-fx=scrollHorz
+                data-cycle-timeout=2000
+                data-cycle-center-horz=true
+                data-cycle-center-vert=true
+                >
+                <img src="images/img1.jpg" alt="Towing Image 1">
+                <img src="images/img2.jpg" alt="Towing Image 2">
+                <img src="images/img3.jpg" alt="Towing Image 3">
+                <img src="images/img5.jpg" alt="Towing Image 4">
+                <img src="images/img6.jpg" alt="Towing Image 5">
+            </div>
+
+            
+        </main>
+        <footer>
+            <div>
+                <p>Contact Us</p>
+                <p>Email: ctsi@clttowingservices.com</p>
+                <p>Phone: 704-615-0656</p>
+            </div>
+            <div>
+                <p>&copy; 2024 Charlotte Towing Services Inc. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>

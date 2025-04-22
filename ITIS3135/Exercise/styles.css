@@ -1,0 +1,195 @@
+:root {
+    --accent-color: #FF3B3F;
+    --accent-dark-color: #EF2B2F;
+    --font-color: #595959;
+    --bg-color: #CAEBF2;
+ }
+ 
+ body {
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+    color: var(--font-color);
+ }
+ 
+ main {
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 5px 10px;
+ }
+ 
+ a:link {
+    color: var(--font-color); 
+ }   
+ 
+ a:visited {
+    color: var(--font-color);  
+ }   
+ 
+ a:hover {
+    color: var(--accent-color); 
+ }  
+ 
+ a:active {
+    color: var(--accent-color);
+ }   
+ 
+ header {
+    background-color: white;
+    padding: 5px 0;
+    margin: 0;
+ }
+ 
+ header h1 {
+    color: var(--accent-color);
+    font-size: 3rem;
+    margin: 10px 10px;
+    text-shadow: 2px 2px 3px gray; 
+ }
+ 
+ nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+ }
+ 
+ nav li {
+   display: inline;
+ }
+ 
+ nav li a {
+    text-decoration: none;
+    padding: 10px 20px;
+ }
+ 
+ nav li a:hover {
+    color: white;
+    background-color: var(--accent-color);    
+ }
+ 
+ .feature {
+    border-radius: 10px;
+    background: white;
+    padding: 2px 15px;
+    margin: 10px 0;
+ }
+ 
+ .feature a {
+    text-decoration: none;  
+ }
+ 
+ @keyframes lowerAd {
+    from { top: -80px; }   
+    to { top: 40px; }
+ }
+ 
+ #advertisement {
+    animation-name: lowerAd;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;      
+    position: fixed;
+    left: 500px;
+    top: -80px;
+    width: 100px;
+    background: linear-gradient(lightgreen, white);
+    box-shadow: 5px 5px;
+    padding: 10px;
+    border-radius: 4px;   
+    transition: all 200ms ease-in-out;  
+ }
+ 
+ #advertisement:hover {
+    transform: scale(1.2, 1.2);
+ }
+ 
+ .restaurant-photo {
+    position: relative;
+ }
+ 
+ .stars {
+    position: relative;
+    top: -5px;
+    left: 0px;   
+    width: 180px;
+ }
+
+ 
+ 
+ .review {
+    border-radius: 5px;
+    background: white;
+    padding: 2px 15px;
+    margin: 10px 0;
+    font-size: smaller;
+ }
+ 
+ label {
+   width: 100px;
+   display: inline-block;
+   text-align: right;
+   margin-right: 8px;
+}
+ 
+ input, select, textarea {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+ 
+ input[type=number], input[type=date] {
+    width: auto;
+ }
+ 
+ button {
+    width: 100px;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+ }
+ 
+ button:hover {
+    background-color: var(--accent-dark-color);   
+ }
+
+ #container {
+   display:flex;
+   justify-content: flex-start;
+ }
+
+.flex-container{
+   display:flex;
+   flex-direction: row-reverse;
+   justify-content: left;
+}
+
+.restaurant-format {
+   width: 200px;
+}
+
+ .star-rating{
+   display: flex;
+   align-items: center;
+   gap:5px;
+ }
+
+ .number-reviews {
+   display: flex;
+   align-items: center;
+   gap:10px;
+ }
+
+ .star-image{
+   display: flex;
+   align-items: center;
+ }
+
+ .open-format {
+   color: green;
+ }
+
+ 

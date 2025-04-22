@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>About Us</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- include jQuery library-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <!-- include javascript to use ajax/json files-->
+        <script src="project-json.js"></script>
+        <!-- include tooltips widget and css styling -->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script src="tooltip.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="images/ctsi-logo.png" alt="CTSI Logo" height="80">
+            <h1>Charlotte Towing Services Inc.</h1>
+            <nav class="nav-header-1">
+                <ul>
+                    <li><a href="index.html" title="Click to return the home page">Home</a></li>
+                    <li><a href="services.html" title="Click to look at our services">Services</a></li>
+                    <li><a href="about.html" title="Click to find out who we are" class="active-link">About</a></li>
+                    <li><a href="contactUs.html" title="Click to find out where to find us">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="title">
+            <h1 class="title">About Us</h1>
+            <h2>Get to know who runs the show.</h2>
+        </div>
+        <main>  
+            <nav id="employees">  
+                <ul>
+                    <li><a href="#" title="Click to see the owner" data-title="owner">Owner</a></li>
+                    <li><a href="#" title="Click to see the developer" data-title="developer">Web Designer</a></li>
+                    <li><a href="#" title="Click to see the killer" data-title="killer">Guard Dog</a></li>
+                </ul>
+            </nav>  
+            <div class="employee-container">
+                <div>
+                    <img class="portrait" src="https://webpages.charlotte.edu/vbou/Project/images/owner.jpg" alt="owner portrait">
+                </div>
+                <div class="description-container">
+                    <h2>Rafael Torrez</h2>
+                    <h3>The Owner</h3>
+                    <p>
+                        Meet Rafael Torrez, the owner of CTSI. 
+                        Rafael has been working in the automotive 
+                        industry for over 20 years over at Georges 
+                        Quick Auto Credit. In 2021, Rafael decided 
+                        to leave and start his own business, Charlotte 
+                        Towing Services Inc.
+                    </p> 
+                </div> 
+            </div>  
+        </main>
+        <footer>
+            <div>
+                <p>Contact Us</p>
+                <p>Email: ctsi@clttowingservices.com</p>
+                <p>Phone: 704-615-0656</p>
+            </div>
+            <div>
+                <p>&copy; 2024 Charlotte Towing Services Inc. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>

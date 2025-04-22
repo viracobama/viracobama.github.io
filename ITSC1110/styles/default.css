@@ -1,0 +1,105 @@
+/*
+    https://coolors.co/012a36-8fa998-f97068-540b0e-6f9ceb
+    teal - grey - peach - burgundy - greyblue
+*/
+body {
+    font-family: "Eczar", serif;
+    padding: 0;
+    background-color: #540B0E;
+    color: #8FA998;
+    max-width: 0 auto;
+    margin: 0 auto;
+}
+header {
+    background-color: #012A36;
+    color: #F97068;
+    padding: 10px 0;
+    text-align: center;
+    font-family: "Eczar", serif;
+    font-size: 30px;
+}
+main {
+    padding: 20px;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    font-family: "Lalezar";
+    text-align: center;
+    padding: 10px 0;
+    background-color: #012A36;
+    color: #F97068;
+    width: 100%;
+}
+
+
+footer a {
+    color: #8FA998;
+}
+
+footer a:hover{
+    color: white;
+}
+
+main a {
+    color: #6F9CEB;
+    text-decoration: none;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+body main {
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    width: 95%;
+}
+h1 {
+    font-size: 110%;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+h3 {
+    text-align: center;
+}
+
+nav a{
+    color:#8FA998;
+}
+nav a:hover{
+    color:white;
+}
+
+figure #introduction_img{
+    max-width: 200px;
+    height: auto;
+    border: 10px solid #012A36;
+    border-radius: 10px;
+}
+
+figure #quinceanera{
+    max-width: 900px;
+    height: auto;
+    border: 10px solid #012A36;
+    border-radius: 10px;
+}
+
+#current-link {
+    text-decoration: underline;
+}
+
